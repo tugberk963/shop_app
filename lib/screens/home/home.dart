@@ -11,6 +11,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.brown[50],
       appBar: AppBar(title: Text('Shop App'),
+      centerTitle: true,
       backgroundColor: Colors.brown[400],
       elevation: 0.0,
       actions: [

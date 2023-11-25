@@ -19,6 +19,7 @@ class _SignInState extends State<SignIn> {
       appBar: AppBar(
         backgroundColor: Colors.brown[400],
         elevation: 0.0,
+        centerTitle: true,
         title: const Text('Sign in to Shop App'),
       ),
       body: 
@@ -33,7 +34,7 @@ class _SignInState extends State<SignIn> {
             print('signed in');
             print(result.uid);
           }
-        }, child: const Text('Sign in anon')),
+        }, child: Center(child: const Text('Sign in anon'))),
     ));
   }
 }
